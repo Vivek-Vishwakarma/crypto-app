@@ -1,0 +1,19 @@
+.cardImg {
+  object-fit: scale-down !important;
+}
+.card {
+  margin: 10px 40px;
+  transition: transform 0.2s ease;
+  /* box-shadow: none !important; */
+}
+.MuiCardContent-root {
+  padding: 10px !important;
+}
+.card:hover {
+  -webkit-box-shadow: 7px 7px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 14px -4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
